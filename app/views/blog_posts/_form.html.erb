@@ -1,5 +1,4 @@
 <%= form_with model: blog_post do |form| %>
-
 <% if form.object.errors.any? %>
 <div>
     <%form.object.errors.full_messages.each do |message| %>
